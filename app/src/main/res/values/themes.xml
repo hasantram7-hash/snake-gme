@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.SnakeGame" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorPrimaryVariant">@color/green_900</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_500</item>
+        <item name="colorSecondaryVariant">@color/green_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.SnakeGame.NoActionBar" parent="Theme.SnakeGame">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

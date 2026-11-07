@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace these with your actual leaderboard/achievement IDs from Google Play Console -->
+    <string name="leaderboard_classic" translatable="false">YOUR_LEADERBOARD_CLASSIC_ID</string>
+    <string name="leaderboard_timed" translatable="false">YOUR_LEADERBOARD_TIMED_ID</string>
+    <string name="leaderboard_survival" translatable="false">YOUR_LEADERBOARD_SURVIVAL_ID</string>
+    <string name="leaderboard_challenge" translatable="false">YOUR_LEADERBOARD_CHALLENGE_ID</string>
+
+    <string name="achievement_first_food" translatable="false">YOUR_ACHIEVEMENT_FIRST_FOOD_ID</string>
+    <string name="achievement_score_10" translatable="false">YOUR_ACHIEVEMENT_SCORE_10_ID</string>
+    <string name="achievement_score_50" translatable="false">YOUR_ACHIEVEMENT_SCORE_50_ID</string>
+    <string name="achievement_score_100" translatable="false">YOUR_ACHIEVEMENT_SCORE_100_ID</string>
+    <string name="achievement_survive_10" translatable="false">YOUR_ACHIEVEMENT_SURVIVE_10_ID</string>
+    <string name="achievement_combo_5" translatable="false">YOUR_ACHIEVEMENT_COMBO_5_ID</string>
+    <string name="achievement_ghost_mode" translatable="false">YOUR_ACHIEVEMENT_GHOST_MODE_ID</string>
+    <string name="achievement_all_modes" translatable="false">YOUR_ACHIEVEMENT_ALL_MODES_ID</string>
+    <string name="achievement_daily_challenge" translatable="false">YOUR_ACHIEVEMENT_DAILY_CHALLENGE_ID</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <color name="green_500">#34D399</color>
+    <color name="green_700">#10B981</color>
+    <color name="green_900">#064E3B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_dark">#0A0E14</color>
+    <color name="border_color">#1F2A36</color>
+    <color name="text_main">#DBE4EE</color>
+    <color name="text_muted">#8494A6</color>
+    <color name="food_color">#F87171</color>
+    <color name="snake_head">#A7F3D0</color>
+    <color name="snake_tail">#06331F</color>
+</resources>
