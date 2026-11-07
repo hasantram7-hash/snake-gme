@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
+
+# Node / Cordova / Android build output
+node_modules/
+platforms/
+plugins/
+www/
+android-sdk/
+*.keystore
+*.jks
+
+# Gradle / Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+app/build/
+
+# Logs
+*.log
+
+# GitHub release assets (optional)
+*.apk
+*.aab

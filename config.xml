@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Classic Snake Game — Cordova configuration
+  Package: com.ultimategaming.snake
+  Entry point: snake.html
+-->
+<widget id="com.ultimategaming.snake" version="2.0.0" xmlns="http://www.w3.org/ns/xmlns/tools">
+  <name>Classic Snake Game</name>
+  <description>
+    Classic Snake Game — swipe to move, eat the orbs, beat the high score.
+    Includes AdMob banner ads, multiple game modes, power-ups, and global leaderboards.
+  </description>
+  <author href="https://example.com" email="dev@ultimategaming.com">
+    Ultimate Gaming
+  </author>
+  <content src="snake.html" />
+
+  <preference name="Orientation" value="portrait" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+  <preference name="HideKeyboardFormFields" value="true" />
+  <preference name="SuppressAllMessages" value="true" />
+  <preference name="SplashScreenDelay" value="3000" />
+  <preference name="AutoHideSplashScreen" value="true" />
+  <preference name="AndroidLaunchMode" value="singleTask" />
+  <preference name="android:configChanges" value="orientation|screenSize|keyboard|keyboardHidden|screenLayout|uiMode|fontSize" />
+
+  <!-- Android platform -->
+  <platform name="android">
+    <preference name="AndroidMinSdkVersion" value="21" />
+    <preference name="AndroidTargetSdkVersion" value="34" />
+    <preference name="AndroidCompileSdkVersion" value="34" />
+
+    <!-- AdMob app ID -->
+    <meta-data
+      android:name="com.google.android.gms.ads.APPLICATION_ID"
+      android:value="ca-app-pub-1352153538954102~4561513683" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:required="false" android:name="android.hardware.touch" />
+
+    <icon src="resources/android/icon/drawable-xxhdpi.png" />
+    <icon src="resources/android/icon/drawable-xhdpi.png" density="xhdpi" />
+    <icon src="resources/android/icon/drawable-hdpi.png" density="hdpi" />
+    <icon src="resources/android/icon/drawable-mdpi.png" density="mdpi" />
+    <icon src="resources/android/icon/drawable-ldpi.png" density="ldpi" />
+
+    <splash src="resources/android/splash/drawable-land-mdpi.png" density="land-mdpi" />
+    <splash src="resources/android/splash/drawable-land-hdpi.png" density="land-hdpi" />
+    <splash src="resources/android/splash/drawable-land-xhdpi.png" density="land-xhdpi" />
+    <splash src="resources/android/splash/drawable-land-xxhdpi.png" density="land-xxhdpi" />
+    <splash src="resources/android/splash/drawable-land-xxxhdpi.png" density="land-xxxhdpi" />
+    <splash src="resources/android/splash/drawable-port-mdpi.png" density="port-mdpi" />
+    <splash src="resources/android/splash/drawable-port-hdpi.png" density="port-hdpi" />
+    <splash src="resources/android/splash/drawable-port-xhdpi.png" density="port-xhdpi" />
+    <splash src="resources/android/splash/drawable-port-xxhdpi.png" density="port-xxhdpi" />
+    <splash src="resources/android/splash/drawable-port-xxxhdpi.png" density="port-xxxhdpi" />
+
+    <allow-intent href="market:*" />
+    <allow-intent href="http:*" />
+    <allow-intent href="https:*" />
+  </platform>
+</widget>
