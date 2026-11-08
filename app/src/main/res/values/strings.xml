@@ -1,16 +1,3 @@
 <resources>
     <string name="app_name">Snake Game</string>
-    <string name="leaderboard_classic">leaderboard_classic</string>
-    <string name="leaderboard_timed">leaderboard_timed</string>
-    <string name="leaderboard_survival">leaderboard_survival</string>
-    <string name="leaderboard_challenge">leaderboard_challenge</string>
-    <string name="achievement_first_food">achievement_first_food</string>
-    <string name="achievement_score_10">achievement_score_10</string>
-    <string name="achievement_score_50">achievement_score_50</string>
-    <string name="achievement_score_100">achievement_score_100</string>
-    <string name="achievement_survive_10">achievement_survive_10</string>
-    <string name="achievement_combo_5">achievement_combo_5</string>
-    <string name="achievement_ghost_mode">achievement_ghost_mode</string>
-    <string name="achievement_all_modes">achievement_all_modes</string>
-    <string name="achievement_daily_challenge">achievement_daily_challenge</string>
 </resources>
